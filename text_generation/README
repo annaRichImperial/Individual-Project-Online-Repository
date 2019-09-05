@@ -1,2 +1,8 @@
 this directory includes all programs for the generation of text.
 the attempt is to accurately generate/predict 2019 christmas speech.
+the most successful of the attempt is the pretrained code. 
+This comprises the data_style folder, with texts for style inside;
+the pretrained_add_style python file, which trains the pretrained model on custom data-style;
+the generate_text_main python file, which provides the seed, and generates text. 
+helper functions required for this code to work are provided by Gero et al. https://github.com/kgero/style-gen
+(downloading of pre-trained model is also required.)
